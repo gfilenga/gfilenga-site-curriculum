@@ -30,13 +30,10 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="projects">Projects</NavLinks>
                         </NavItem>
-                        <NavItem>
-                            <NavLinks to="signup">Sign Up</NavLinks>
-                        </NavItem>
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to="/signin"> Sign In</NavBtnLink>
+                        <NavBtnLink to="/download"> Download - cv</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

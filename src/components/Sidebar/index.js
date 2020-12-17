@@ -21,10 +21,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
                     <SidebarLink to="social" onClick={toggle}>Social</SidebarLink>
                     <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                    <SidebarRoute to="/download">Download - cv</SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SideBarContainer>
