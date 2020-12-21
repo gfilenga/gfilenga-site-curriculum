@@ -17,7 +17,7 @@ const HeroSection = () => {
                 <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
-                <HeroH1>gfilenga</HeroH1>
+                <HeroH1>web developer</HeroH1>
                 <HeroP>Este site foi criado com o objetivo de aplicar o que aprendi em react até o momento</HeroP>
             </HeroContent>
         </HeroContainer>
