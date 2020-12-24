@@ -18,9 +18,9 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="social" onClick={toggle}>Social</SidebarLink>
-                    <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
+                    <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
+                    <SidebarLink to="social" onClick={toggle}>Redes</SidebarLink>
+                    <SidebarLink to="projects" onClick={toggle}>Projetos</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to="/download">Download - cv</SidebarRoute>
