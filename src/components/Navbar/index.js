@@ -1,14 +1,15 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa'
-import { Nav,
-         NavbarContainer,
-         NavLogo, 
-         MobileIcon, 
-         NavMenu, 
-         NavItem, 
-         NavLinks,
-         NavBtn,
-         NavBtnLink 
+import {
+    Nav,
+    NavbarContainer,
+    NavLogo,
+    MobileIcon,
+    NavMenu,
+    NavItem,
+    NavLinks,
+    NavBtn,
+    NavBtnLink
 } from './navBarElements';
 
 const Navbar = ({ toggle }) => {
@@ -33,10 +34,10 @@ const Navbar = ({ toggle }) => {
                     </NavMenu>
 
                     <NavBtn>
-                        <NavBtnLink to="/download"> Download - cv</NavBtnLink>
+                        <NavBtnLink onClick={() => window.open("https://drive.google.com/file/d/1JNu2jJvP6zQ6NfpxsH0ju0bEo3E95KU_/view?usp=sharing")}>Download - cv</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
-            </Nav>
+        </Nav>
         </>
     )
 }

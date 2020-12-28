@@ -19,7 +19,7 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1>web developer</HeroH1>
                 <HeroP>Este site foi criado com o objetivo de aplicar o que aprendi em react até o momento</HeroP>
-            </HeroContent>
+          </HeroContent>
         </HeroContainer>
     )
 }
